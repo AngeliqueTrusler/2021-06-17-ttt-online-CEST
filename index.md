@@ -15,7 +15,7 @@ etherpad:   https://pad.carpentries.org/2021-06-17-ttt-online-CEST         # opt
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
   - venue: "Online"
-    address: "TBA"
+    address: "https://carpentries.zoom.us/my/carpentriesroom1?pwd=VElzMTlMcXh1bjF6YXl3L1NsTllldz09"
     
 ---
 
@@ -108,7 +108,7 @@ locations:
 
 {% if online == "online" %}
 
-This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
+This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>. Use passcode <b>202020</b> when asked.
 
 {% else %}
 {% assign inperson = "true" %}
